@@ -100,7 +100,7 @@ export default class Controller {
             invisTask.classList.remove('invisible');
             dragTask.remove();
             document.removeEventListener('mouseover', onMouseOver);
-            // this.saveState();
+            this.saveState();
 
         }
 
